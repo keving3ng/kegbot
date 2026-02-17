@@ -1,0 +1,8 @@
+---
+description: Follow root AGENTS.md for project context and rules
+alwaysApply: true
+---
+
+# Repo context
+
+Follow the rules and structure in root [AGENTS.md](AGENTS.md) for all project context, code rules, architecture, security, and workflow.

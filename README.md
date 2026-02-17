@@ -58,6 +58,7 @@ An autonomous AI agent system for personal use that:
 
 ## Documentation
 
+- **[AGENTS.md](AGENTS.md)** — Canonical context for AI assistants (Cursor, Claude, etc.).
 - **[docs/spec.md](docs/spec.md)** - Technical spec: data models, API design, security model, database schema
 - **[docs/dev-guide.md](docs/dev-guide.md)** - Development setup and coding standards
 - **[docs/roadmap.md](docs/roadmap.md)** - Implementation phases and task breakdown
