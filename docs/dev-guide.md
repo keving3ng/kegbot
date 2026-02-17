@@ -1,5 +1,7 @@
 # Development Guide
 
+For AI assistants, start with root [AGENTS.md](../AGENTS.md).
+
 ---
 
 ## Setup
@@ -65,40 +67,14 @@ personal-ai-agent/
 │   ├── unit/
 │   ├── integration/
 │   └── conftest.py
-├── pyproject.toml           # Tool configs (black, ruff, mypy, pytest)
-└── setup.py                 # Package + dependencies
+└── pyproject.toml           # Tool configs (black, ruff, mypy, pytest)
 ```
 
 ---
 
-## Coding Standards
+## Coding standards and testing
 
-Enforced by pre-commit hooks and CI:
-
-- **Black** (line-length: 100) - formatting
-- **Ruff** - linting (replaces flake8, isort, pylint)
-- **MyPy** (strict) - type checking
-- All new code requires type hints and Google-style docstrings
-
-```bash
-black agent/ tests/           # Format
-ruff check agent/             # Lint
-ruff check --fix agent/       # Auto-fix lint issues
-mypy agent/                   # Type check
-```
-
----
-
-## Testing
-
-```bash
-pytest                                    # All tests
-pytest tests/unit/                        # Unit only
-pytest tests/integration/ -v              # Integration only
-pytest --cov=agent --cov-report=html      # With coverage
-```
-
-Minimum coverage: 80%. Critical paths (orchestrator, router, sandbox): 100%.
+Code rules, coverage requirements, and format/lint/typecheck/test commands are defined in root [AGENTS.md](../AGENTS.md). Pre-commit hooks and CI enforce those rules.
 
 ---
 
