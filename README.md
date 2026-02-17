@@ -56,27 +56,9 @@ An autonomous AI agent system for personal use that:
 
 **Pre-implementation.** The architecture, data models, security model, and roadmap are defined. No application code has been written yet. See [docs/roadmap.md](docs/roadmap.md) for the implementation plan.
 
-## Development Setup
-
-```bash
-git clone https://github.com/yourusername/personal-ai-agent.git
-cd personal-ai-agent
-
-python3.11 -m venv venv
-source venv/bin/activate
-
-pip install -e ".[dev]"
-pre-commit install
-```
-
-See [docs/dev-guide.md](docs/dev-guide.md) for full setup and coding standards.
-
 ## Documentation
 
 - **[docs/spec.md](docs/spec.md)** - Technical spec: data models, API design, security model, database schema
 - **[docs/dev-guide.md](docs/dev-guide.md)** - Development setup and coding standards
 - **[docs/roadmap.md](docs/roadmap.md)** - Implementation phases and task breakdown
 
-## License
-
-MIT
